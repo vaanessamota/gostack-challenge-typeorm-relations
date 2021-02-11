@@ -1,6 +1,7 @@
 # gostack-challenge-typeorm-relations
 
 # Diagrama Entidade Relacionamento
+```mermaid
 
 classDiagram
 
@@ -34,3 +35,4 @@ class Orders{
 
 
 Products "n" <--> "n" Orders : know
+```
